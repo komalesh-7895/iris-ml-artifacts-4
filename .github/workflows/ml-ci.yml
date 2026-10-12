@@ -45,7 +45,7 @@ jobs:
         with:
           name: iris-ml-artifacts
           path: |
-            iris_model.pkl
+            iris_model_missing.pkl
             metrics.json
             iris_dataset.csv
           if-no-files-found: error
